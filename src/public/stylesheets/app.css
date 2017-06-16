@@ -1,0 +1,61 @@
+.login-form {
+    max-width: 600px;
+    padding: 150px 5px 5px 5px;
+}
+
+.loginForm .form-group {
+    margin: 5px;
+}
+
+.page-header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+    height: 55px;
+    /*margin-bottom: 0;*/
+    background-color: #717171;
+}
+
+.page-header span {
+    padding-left: 15px;
+    padding-top: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+.alert-error-message {
+    color: red;
+}
+
+.alert-block {
+    padding-bottom: 20px;
+    color: #efb321;
+}
+
+.d-b {
+    display: block;
+}
+
+canvas {
+    background:url('../images/bg.png') repeat #e4e4e4;
+    z-index: -50;
+    position: absolute;
+    left:0;
+    top:0;
+    cursor: url('../images/cursor.png'),url('../images/cursor.png'),auto;
+}
+html{
+    overflow:hidden;
+}
+
+
+#cursors{
+    position:relative;
+}
+
+/*#cursors .cursor{*/
+    /*position:absolute;*/
+    /*width:15px;*/
+    /*height:22px;*/
+    /*background:url('../images/pointer.png') no-repeat -4px 0;*/
+/*}*/
